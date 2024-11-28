@@ -1,4 +1,4 @@
-# 3erparcial-INF-520
+  # 3erparcial-INF-520
 
 # Perceptrón Multicapa para Clasificación del Dataset Iris
 
@@ -74,3 +74,23 @@ plt.xlabel("Largo de pétalo")
 plt.ylabel("Ancho de pétalo")
 plt.legend()
 plt.show()
+```
+Reporte de Resultados
+Predicciones del Modelo
+El modelo predice correctamente las etiquetas asociadas a cada muestra del conjunto de datos.
+
+'Ejemplo de Predicciones
+Flor	Largo de Sépalo	Ancho de Sépalo	Largo de Pétalo	Ancho de Pétalo	Real	Predicción
+1	5.1	3.5	1.4	0.2	1	1
+2	4.7	3.2	1.4	0.2	1	1
+3	7.7	3.0	6.1	2.3	0	0
+4	6.8	3.2	5.9	2.3	0	0
+5	4.7	3.2	1.4	0.2	1	1
+6	6.4	3.1	5.5	1.8	0	0
+7	5.0	3.4	1.5	0.2	1	1
+8	4.6	3.4	1.4	0.3	1	1
+Visualización de Resultados'
+El gráfico generado muestra las muestras clasificadas correctamente entre la especie Setosa y las demás especies. Se utilizaron como ejes las características largo del pétalo y ancho del pétalo para facilitar la visualización.
+
+Puntos azules: Flores identificadas como Setosa.
+Puntos rojos: Flores identificadas como no Setosa.
